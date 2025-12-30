@@ -2,5 +2,8 @@
 using namespace std;
 
 int main() {
-
+int numri;
+cout<<"shkruani nje numer"<<endl;
+cin>>numri;
+cout<<"numri qe shenuat eshte"<<numri<<endl;
 }
