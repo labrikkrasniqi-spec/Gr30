@@ -5,7 +5,7 @@ class telefoni{
 private:
 
     string prodhuesi;
-    string nghyra;
+    string ngjyra;
     float pesha;
     float nivelIBaterise;  
 
@@ -27,7 +27,7 @@ telefoni(){
 }
 telefoni(string p,string n,float pe,float nb){
     prodhuesi=p;
-    nghyra=n;
+    ngjyra=n;
     pesha=pe;
     nivelIBaterise=nb;
 }
