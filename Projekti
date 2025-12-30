@@ -32,8 +32,29 @@ telefoni(string p,string n,float pe,float nb){
     nivelIBaterise=nb;
 }
 int numeroShkronjat(char shkronja){
+    int rez=0;
+    for(int i=0;i<prodhuesi.length();i++){
+        if(shkronja==prodhuesi[i]){
+            rez++;
+        }
+    }
+    return rez;
     
 }
+string ktheMesin(string teksti){
+    string rez="";
+    if(teksti.length()%2==1){
+        rez=teksti[teksti.length()/2];
+    }else {
+        rez=teksti[teksti.length()/2-1];
+        rez+=teksti[teksti.length()/2];
+    }
+    return rez;
+}
+float konvertonNeKilograme(){
+    return pesha / 1000;
+}
+
 };
 
 int main() {
