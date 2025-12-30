@@ -12,12 +12,27 @@ private:
 public:
 telefoni(){
 
+    cout<<"Vendosni prodhuesin e telefonit";
+    cin>>prodhuesi;
+
+    cin.ignore();
+    cout<<"vendosni ngjyren e telefonit";
+    getline(cin,ngjyra);
+
+    cout<<"vendosni peshën e telefonit";
+    cin>>pesha;
+
+    cout<<"vendosni nivelin e baterisë së telefonit";
+    cin>>nivelIBaterise;
 }
 telefoni(string p,string n,float pe,float nb){
-
+    prodhuesi=p;
+    nghyra=n;
+    pesha=pe;
+    nivelIBaterise=nb;
 }
 int numeroShkronjat(char shkronja){
-
+    
 }
 };
 
