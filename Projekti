@@ -1,9 +1,26 @@
 #include <iostream>
 using namespace std;
 
+class telefoni{
+private:
+
+    string prodhuesi;
+    string nghyra;
+    float pesha;
+    float nivelIBaterise;  
+
+public:
+telefoni(){
+
+}
+telefoni(string p,string n,float pe,float nb){
+
+}
+int numeroShkronjat(char shkronja){
+
+}
+};
+
 int main() {
-int numri;
-cout<<"shkruani nje numer"<<endl;
-cin>>numri;
-cout<<"numri qe shenuat eshte"<<numri<<endl;
+
 }
