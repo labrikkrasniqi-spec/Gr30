@@ -55,6 +55,28 @@ float konvertonNeKilograme(){
     return pesha / 1000;
 }
 
+string shfaqBaterine()
+{
+    string rez = "";
+    int vija = nivelIBaterise / 10;
+
+    for (int i = 0; i < vija; i++)
+    {
+        rez += "-";
+    }
+    return rez;
+}
+
+string getProdhuesi()
+{
+    return prodhuesi;
+}
+
+string getNgjyra()
+{
+    return ngjyra;
+}
+
 };
 
 int main() {
