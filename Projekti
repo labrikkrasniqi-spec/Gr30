@@ -26,12 +26,19 @@ telefoni(){
 
     cout<<"vendosni nivelin e baterisë së telefonit";
     cin>>nivelIBaterise;
+    cout<<"vendosni memorjen e telefonit (ne GB):";
+    cin>>memoria;
+
+    cout<<"vendosni madhesin e ekranit (ne inch):";
+    cin>>madhesiaEkranit;
 }
-telefoni(string p,string n,float pe,float nb){
+telefoni(string p,string n,float pe,float nb,int m,float me){
     prodhuesi=p;
     ngjyra=n;
     pesha=pe;
     nivelIBaterise=nb;
+    memoria=m;
+    madhesiaEkranit=me;
 }
 int numeroShkronjat(char shkronja){
     int rez=0;
