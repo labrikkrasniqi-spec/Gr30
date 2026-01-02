@@ -8,7 +8,7 @@ private:
     string ngjyra;
     float pesha;
     float nivelIBaterise;  
-    int memorja;
+    int memoria;
     float madhesiaEkranit;
 
 public:
@@ -86,6 +86,15 @@ string getNgjyra()
     return ngjyra;
 }
 
+int getMemoria()
+{
+    return memoria;
+}
+
+float getMadhesiaEkranit()
+{
+    return madhesiaEkranit;
+}
 };
 
 int main() {
