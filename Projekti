@@ -117,10 +117,10 @@ int main() {
         <<endl;
 
     cout<<"Madhesia e ekranit:"
-        <<t1.getMashesiaEkranit()
+        <<t1.getMadhesiaEkranit()
         <<"inch"<<endl;
         
-    char shronja;
+    char shkronja;
     cout<<"Vendoseni nje shkronje per tu numruar ne prodhuesin e telefonit:";
     cin>>shkronja;
 
