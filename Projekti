@@ -99,4 +99,17 @@ float getMadhesiaEkranit()
 
 int main() {
 
+
+    telefoni t1;
+
+    cout<<"Numri i shkronjave 'a' ne prodhuesin e telefonit:"<<t1.numeroShkronjat('a')<<endl;
+
+    cout<<"Mesatarja (mesi) e prodhuesit te telefonit:"<<t1.ktheMesin(t1.getProdhuesi())<<endl;
+
+    cout<<"Pesha e telefonit ne kilogram:"<< t1.konvertonNeKilograme()<<"kg"<<endl;
+
+    cout<<"Niveli i baterise :"<<t1.shfaqBaterine()<<endl;
+
+    cout<<"Prodhuesi i telefonit:"<<t1.getProdhuesi()<<endl;
+
 }
