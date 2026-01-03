@@ -112,4 +112,26 @@ int main() {
 
     cout<<"Prodhuesi i telefonit:"<<t1.getProdhuesi()<<endl;
 
+    cout<<"Memoria e telefonit:"
+        <<t1.getMemoria() <<"GB"
+        <<endl;
+
+    cout<<"Madhesia e ekranit:"
+        <<t1.getMashesiaEkranit()
+        <<"inch"<<endl;
+        
+    char shronja;
+    cout<<"Vendoseni nje shkronje per tu numruar ne prodhuesin e telefonit:";
+    cin>>shkronja;
+
+    cout<<"Numri i shkronjave'"
+        <<shkronja
+        <<"ne prodhuesin e telefonit:"
+        <<t1.numeroShkronjat(shkronja)
+        <<endl;
+
+        return 0;
+
+       
+
 }
